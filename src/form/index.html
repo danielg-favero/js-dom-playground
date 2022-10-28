@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../styles.css">
+
+    <title>Form</title>
+</head>
+<body>
+    <a href="../" class="color-blue">&lt Voltar</a>
+    <main class="center">
+        <form class="column gap-16" name="user-form" id="form">
+            <section class="column gap-8">
+                <label for="text-input">Usuário</label>
+                <input type="text" id="user-input" name="user">
+                <p class="error-message" id="user-error-message"></p>
+            </section>
+            <section class="column gap-8">
+                <label for="text-input">Senha</label>
+                <input type="password" id="password-input" name="password">
+                <p class="error-message" id="password-error-message"></p>
+            </section>
+            <button type="submit" class="color-white">Entrar</button>
+        </form>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
